@@ -1,0 +1,133 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "937a5288-2271-44ea-8197-fc38898a6f02")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 44.45 44.45) (xy 46.99 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aef803e-62ab-4ed2-aefc-002076d6aca5")
+	)
+	(wire
+		(pts
+			(xy 33.02 45.72) (xy 33.02 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a608a6d-b6bc-4ffb-8847-0b2271c14a88")
+	)
+	(wire
+		(pts
+			(xy 44.45 40.64) (xy 44.45 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616c0bc4-6fad-4a9c-9b0f-648f42a2b2ad")
+	)
+	(wire
+		(pts
+			(xy 45.72 39.37) (xy 45.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "657ad094-0888-4dcd-9d4f-c6a5f0df65fe")
+	)
+	(wire
+		(pts
+			(xy 43.18 38.1) (xy 43.18 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "790e9e94-661b-4ea9-9433-93b0f3c6e6a3")
+	)
+	(wire
+		(pts
+			(xy 33.02 40.64) (xy 44.45 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6dedb6-e3a8-4827-8d71-8d08bf6cbae6")
+	)
+	(wire
+		(pts
+			(xy 33.02 45.72) (xy 34.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d0e0fa-260e-4d6c-a53f-ffbd6e627c81")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.1) (xy 43.18 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06abaad-7c85-42b8-9cce-2badabe3dc40")
+	)
+	(label "VDD"
+		(at 34.29 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0e93300-2e02-4270-9a12-ded15af949b4")
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 43.18 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adf5bc10-adf9-439f-84b1-732885c89d83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.5662 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 46.99 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23fecee8-2ad8-480d-ac32-b520b04a8126")
+	)
+)
